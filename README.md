@@ -57,7 +57,7 @@ A partir de estos datos, la plataforma:
 
 * LinkedIn
 * Computrabajo
-* Boomerang
+* Bumeran
 
 De esta manera, OportunIA acompaña a las personas en su desarrollo profesional y les brinda herramientas para acceder a más oportunidades educativas y laborales.
 
