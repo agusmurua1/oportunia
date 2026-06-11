@@ -1,4 +1,4 @@
-# Grupo B - Equipo 7
+# Grupo A - Equipo 7
 
 *Curso de Programación Asistida con IA - Chicas en Tecnología* 🚀
 
