@@ -1,35 +1,85 @@
-## Grupo A/B - Equipo {numero}
+## Grupo B - Equipo 7 
 _Curso de Programación Asistida con IA - Chicas en Tecnología_ 🚀
-
-```⚠️ Dejar la opción correcta entre Grupo A (Grupo de 17 a 19hs) y Grupo B (Grupo de 19 a 21hs) y agregar el número de equipo ⚠️```
 
 En este repositorio, se presenta el sitio web realizado durante el curso de programación frontend de CET.
 
-### 📄 Entregas
-**Entrega #1**: planificación de la solución y primeros resultados que obtengamos con la IA:
+# 🌟 OportunIA
 
-📝 Edición del Archivo README incluyendo:
-- Definición de la problemática que eligieron abordar
-- Relación con los *Objetivos de Desarrollo Sostenible (ODS)*[^1]
-- Explicación de la solución tecnológica que están desarrollando
-> [!TIP]
-> Aprovechen los [formatos del README](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para escribir diferentes secciones
+## 📌 Problemática
 
-🎨 Moodboard
+Muchas personas tienen dificultades para acceder a oportunidades laborales debido a la falta de orientación personalizada, experiencia laboral o conocimiento sobre las habilidades que demanda el mercado actual.
 
-🧩 Archivos generados con asistencia de IA: ```index.html```, ```style.css```, ```script.js```
+Además, muchas personas no saben cómo crear un currículum profesional, qué capacitaciones realizar para mejorar su perfil o dónde encontrar oportunidades de empleo, becas y formación de manera centralizada.
 
+---
 
-**Entrega #2 (Final)**: se esperan modificaciones en el código respecto a la entrega anterior, que pueden incluir nuevos archivos o extensión de los existentes (debe haber al menos un archivo de cada lenguaje visto - HTML, CSS y Javascript)
+## 🎯 Objetivos de Desarrollo Sostenible (ODS)
 
-💡 Es una buena idea llevar un registro de lo que cambiamos. Por ejemplo
-```
-- Agregamos Bootstrap para el carrousel de imágenes...
-- Modificamos el texto de la sección de bienvenida...
-- Transformamos los textos sobre redes sociales en links...
-```
+Nuestro proyecto se relaciona con los siguientes ODS:
 
-Ahora si, ¡A programar! 🚀
+### 📚 ODS 4: Educación de Calidad
 
+OportunIA promueve el acceso a cursos y capacitaciones que permiten desarrollar nuevas habilidades y mejorar las oportunidades de inserción laboral.
 
-[^1]: Los Objetivos de Desarrollo Sostenible u Objetivos Globales, también conocidos como Agenda 2030, son 17 objetivos globales interconectados diseñados para ser un «plan para lograr un futuro mejor y más sostenible para todos». Más información en https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/
+### 💼 ODS 8: Trabajo Decente y Crecimiento Económico
+
+La plataforma facilita el acceso a oportunidades laborales y contribuye al desarrollo profesional mediante recomendaciones personalizadas basadas en el perfil de cada persona.
+
+---
+
+## 💡 Solución Tecnológica
+
+**OportunIA** es una plataforma inteligente de empleabilidad impulsada por Inteligencia Artificial.
+
+La persona usuaria carga información sobre:
+
+* Estudios realizados
+* Experiencia laboral
+* Habilidades
+* Intereses profesionales
+* Objetivos laborales
+
+A partir de estos datos, la plataforma:
+
+✅ Genera automáticamente un currículum profesional.
+
+✅ Analiza el perfil de la persona usuaria.
+
+✅ Recomienda cursos y capacitaciones para fortalecer sus habilidades.
+
+✅ Sugiere becas acordes a sus intereses y objetivos.
+
+✅ Muestra oportunidades laborales provenientes de distintas plataformas.
+
+✅ Calcula el porcentaje de compatibilidad entre el perfil de la persona usuaria y cada empleo recomendado.
+
+### 🔍 Fuentes de empleo integradas
+
+* LinkedIn
+* Computrabajo
+* Boomerang
+
+De esta manera, OportunIA acompaña a las personas en su desarrollo profesional y les brinda herramientas para acceder a más oportunidades educativas y laborales.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+* HTML
+* CSS
+* JavaScript
+* Inteligencia Artificial para la generación y mejora de contenidos
+
+---
+
+## 📂 Archivos del Proyecto
+
+* `index.html`
+* `styles.css`
+* `main.js`
+
+---
+
+## 🚀 Estado del Proyecto
+
+Versión inicial desarrollada durante el curso de Programación Asistida con IA de Chicas en Tecnología.
