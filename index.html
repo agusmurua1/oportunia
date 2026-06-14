@@ -35,10 +35,7 @@
   <ul>
     <li><a href="#hub" class="active">Cursos</a></li>
     <li><a href="#becas">Becas</a></li>
-    <li><a href="#perfil">Mi Perfil</a></li>
-    <li><a href="#ia">Asistente IA <span class="nav-badge">NEW</span></a></li>
     <li><a href="#empleos">Empleos</a></li>
-    <li><a href="#">Para Empresas</a></li>
   </ul>
 
   <div class="nav-actions">
@@ -53,8 +50,6 @@
       <span style="font-size:.7rem;color:#64748b;">▾</span>
     </button>
     <div id="navDropdown" style="display:none;position:absolute;top:calc(100% + 8px);right:0;background:#fff;border:1px solid rgba(37,99,235,.12);border-radius:14px;box-shadow:0 8px 32px rgba(37,99,235,.12);min-width:200px;overflow:hidden;z-index:999;">
-      <a href="perfil.html" style="display:flex;align-items:center;gap:10px;padding:12px 16px;text-decoration:none;color:#0F172A;font-size:.88rem;font-weight:500;transition:background .15s;" onmouseover="this.style.background='#F0F7FF'" onmouseout="this.style.background='none'">👤 Ver mi perfil</a>
-      <a href="perfil.html#editar" style="display:flex;align-items:center;gap:10px;padding:12px 16px;text-decoration:none;color:#0F172A;font-size:.88rem;font-weight:500;transition:background .15s;" onmouseover="this.style.background='#F0F7FF'" onmouseout="this.style.background='none'">✏️ Editar perfil</a>
       <hr style="border:none;border-top:1px solid rgba(37,99,235,.08);margin:4px 0;">
       <button id="btnLogout" style="display:flex;align-items:center;gap:10px;padding:12px 16px;width:100%;background:none;border:none;cursor:pointer;color:#EF4444;font-size:.88rem;font-weight:500;transition:background .15s;" onmouseover="this.style.background='#FFF0F0'" onmouseout="this.style.background='none'">🚪 Cerrar sesión</button>
     </div>
@@ -213,7 +208,7 @@
 
     </div>
 
-    <div class="step-item locked" id="step2">
+    <div class="step-item" id="step2">
       
       <div class="step-bubble">
         <div class="step-emoji">🔍</div>
@@ -227,7 +222,7 @@
       </div>
     </div>
 
-    <div class="step-item locked" id="step3">
+    <div class="step-item" id="step3">
 
       <div class="step-bubble">
         <div class="step-emoji">🎓</div>
@@ -241,7 +236,7 @@
       </div>
     </div>
 
-    <div class="step-item locked" id="step4">
+    <div class="step-item" id="step4">
 
       <div class="step-bubble">
         <div class="step-emoji">🏆</div>
@@ -255,7 +250,7 @@
       </div>
     </div>
 
-    <div class="step-item locked" id="step5">
+    <div class="step-item" id="step5">
 
       <div class="step-bubble">
         <div class="step-emoji">💼</div>
@@ -774,318 +769,6 @@
 
 <div class="section-divider"></div>
  
-<!-- ═══ PERFIL INTELIGENTE ═══ -->
-<section class="profile-section section" id="perfil">
-
-  <div class="section-header">
-    <div class="chip chip-cyan">Perfil Inteligente</div>
-
-    <h2>
-      Tu perfil profesional
-      <br>
-      <span class="grad">potenciado por IA</span>
-    </h2>
-
-    <p>
-      Construí un perfil dinámico que evoluciona con vos. OportunIA analiza tus habilidades, identifica oportunidades de mejora y te recomienda cursos, becas y empleos acordes a tus objetivos.
-    </p>
-  </div>
-
-  <div class="profile-layout">
-
-    <div class="profile-ui">
-
-      <div class="profile-header-bg"></div>
-
-      <div class="profile-avatar">👩‍💼</div>
-
-      <div class="profile-body">
-
-        <div class="profile-name">Agustina Ramírez</div>
-
-        <div class="profile-headline">
-          Asistente Administrativa · Buenos Aires, Argentina
-        </div>
-
-        <div class="profile-score-row">
-
-          <div class="score-block">
-            <div class="s-val score-green">87</div>
-            <div class="s-lbl">Perfil profesional</div>
-          </div>
-
-          <div class="score-block">
-            <div class="s-val score-pink">12</div>
-            <div class="s-lbl">Cursos realizados</div>
-          </div>
-
-          <div class="score-block">
-            <div class="s-val score-violet">3</div>
-            <div class="s-lbl">Certificaciones</div>
-          </div>
-
-        </div>
-
-        <div class="skills-section-inner">
-
-          <div class="skills-title">
-            Habilidades destacadas
-          </div>
-
-          <div class="skill-bars">
-
-            <div class="skill-bar-item">
-              <span class="skill-bar-name">Excel</span>
-              <div class="skill-bar-track">
-                <div class="skill-bar-fill" style="width:90%"></div>
-              </div>
-              <span class="skill-bar-pct">90%</span>
-            </div>
-
-            <div class="skill-bar-item">
-              <span class="skill-bar-name">Organización</span>
-              <div class="skill-bar-track">
-                <div class="skill-bar-fill" style="width:85%"></div>
-              </div>
-              <span class="skill-bar-pct">85%</span>
-            </div>
-
-            <div class="skill-bar-item">
-              <span class="skill-bar-name">Atención al cliente</span>
-              <div class="skill-bar-track">
-                <div class="skill-bar-fill" style="width:80%"></div>
-              </div>
-              <span class="skill-bar-pct">80%</span>
-            </div>
-
-            <div class="skill-bar-item">
-              <span class="skill-bar-name">Herramientas digitales</span>
-              <div class="skill-bar-track">
-                <div class="skill-bar-fill" style="width:70%"></div>
-              </div>
-              <span class="skill-bar-pct">70%</span>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="ai-suggestion">
-
-          <div class="ai-icon">🤖</div>
-
-          <div class="ai-text">
-            La IA detectó que incorporar una certificación en
-            <strong>análisis de datos y Excel avanzado</strong>
-            podría aumentar tu compatibilidad con nuevas oportunidades laborales y fortalecer tu perfil profesional.
-            <a href="#hub" style="color:var(--primary);font-weight:700;text-decoration:none">
-              Ver recomendación →
-            </a>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="profile-features" id="cvInteligente">
-
-      <div class="profile-feature">
-        <div class="pf-icon-wrap pf-icon-pink">📄</div>
-
-        <div>
-          <div class="pf-title">CV Inteligente</div>
-
-          <div class="pf-desc">
-            Generá versiones personalizadas de tu CV según el puesto al que quieras postularte y exportalas fácilmente.
-          </div>
-
-          <span class="pf-badge">Generado con IA</span>
-        </div>
-      </div>
-
-      <div class="profile-feature">
-        <div class="pf-icon-wrap pf-icon-violet">🧠</div>
-
-        <div>
-          <div class="pf-title">Orientación Profesional</div>
-
-          <div class="pf-desc">
-            Descubrí áreas de interés, fortalezas y posibles caminos de formación mediante recomendaciones inteligentes.
-          </div>
-
-          <span class="pf-badge">Recomendado</span>
-        </div>
-      </div>
-
-      <div class="profile-feature">
-        <div class="pf-icon-wrap pf-icon-cyan">🎓</div>
-
-        <div>
-          <div class="pf-title">Historial de Formación</div>
-
-          <div class="pf-desc">
-            Registrá cursos, certificaciones y estudios realizados para mostrar tu crecimiento profesional.
-          </div>
-
-          <span class="pf-badge">Actualizado</span>
-        </div>
-      </div>
-
-      <div class="profile-feature">
-        <div class="pf-icon-wrap pf-icon-gold">🎯</div>
-
-        <div>
-          <div class="pf-title">Objetivos Profesionales</div>
-
-          <div class="pf-desc">
-            Definí metas laborales y recibí sugerencias de cursos, becas y oportunidades alineadas con ellas.
-          </div>
-
-          <span class="pf-badge">IA Personalizada</span>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<div class="section-divider"></div>
-
-<!-- ═══ IA MATCHING ENGINE ═══ -->
-<section class="ia-section section" id="ia">
-
-  <div class="section-header">
-    <div class="chip chip-violet">Asistente Inteligente</div>
-
-    <h2>
-      IA que impulsa tu
-      <span class="grad">desarrollo profesional</span>
-    </h2>
-
-    <p>
-      OportunIA analiza tu perfil, identifica oportunidades de mejora y te recomienda cursos, becas y empleos para ayudarte a alcanzar tus objetivos.
-    </p>
-  </div>
-
-  <div class="ia-layout">
-
-    <div class="ia-visual">
-
-      <div class="ia-orbit-ring" style="width:320px;height:320px">
-        <div class="ia-orbit-item" style="top:-20px;left:50%;transform:translateX(-50%)">🎓</div>
-        <div class="ia-orbit-item" style="bottom:-20px;left:50%;transform:translateX(-50%)">💼</div>
-        <div class="ia-orbit-item" style="left:-20px;top:50%;transform:translateY(-50%)">🏆</div>
-        <div class="ia-orbit-item" style="right:-20px;top:50%;transform:translateY(-50%)">🧠</div>
-      </div>
-
-      <div class="ia-orbit-ring" style="width:200px;height:200px;animation-duration:14s">
-        <div class="ia-orbit-item" style="top:-18px;left:50%;transform:translateX(-50%);width:34px;height:34px;font-size:.8rem">⚡</div>
-        <div class="ia-orbit-item" style="bottom:-18px;left:50%;transform:translateX(-50%);width:34px;height:34px;font-size:.8rem">🎯</div>
-      </div>
-
-      <div class="ia-core">🤖</div>
-
-    </div>
-
-    <div class="ia-content">
-
-      <div class="ia-feature">
-        <div class="ia-feat-icon">📊</div>
-        <div>
-          <div class="ia-feat-title">Perfil Profesional Inteligente</div>
-          <div class="ia-feat-desc">
-            Analiza tu experiencia, formación y habilidades para construir una visión integral de tu perfil.
-          </div>
-        </div>
-      </div>
-
-      <div class="ia-feature">
-        <div class="ia-feat-icon">💡</div>
-        <div>
-          <div class="ia-feat-title">Habilidades por Desarrollar</div>
-          <div class="ia-feat-desc">
-            Detecta conocimientos y competencias que podrían fortalecer tu empleabilidad según tus objetivos.
-          </div>
-        </div>
-      </div>
-
-      <div class="ia-feature">
-        <div class="ia-feat-icon">🎓</div>
-        <div>
-          <div class="ia-feat-title">Recomendaciones Personalizadas</div>
-          <div class="ia-feat-desc">
-            Sugiere cursos, certificaciones y becas alineadas con tu perfil y tus intereses profesionales.
-          </div>
-        </div>
-      </div>
-
-      <div class="ia-feature">
-        <div class="ia-feat-icon">💼</div>
-        <div>
-          <div class="ia-feat-title">Oportunidades Laborales Compatibles</div>
-          <div class="ia-feat-desc">
-            Identifica empleos que coinciden con tu experiencia y te ayuda a prepararte para futuras postulaciones.
-          </div>
-        </div>
-      </div>
-
-      <div class="roadmap-preview">
-
-        <div class="rp-title">
-          Tu Plan de Crecimiento Profesional
-        </div>
-
-        <div class="roadmap-track">
-
-          <div class="rm-step">
-            <div class="rm-bubble done">✓</div>
-            <div class="rm-label">Excel Básico</div>
-          </div>
-
-          <div class="rm-connector done"></div>
-
-          <div class="rm-step">
-            <div class="rm-bubble done">✓</div>
-            <div class="rm-label">Excel Avanzado</div>
-          </div>
-
-          <div class="rm-connector done"></div>
-
-          <div class="rm-step">
-            <div class="rm-bubble active">▶</div>
-            <div class="rm-label">Certificación</div>
-          </div>
-
-          <div class="rm-connector"></div>
-
-          <div class="rm-step">
-            <div class="rm-bubble next">→</div>
-            <div class="rm-label">Experiencia</div>
-          </div>
-
-          <div class="rm-connector"></div>
-
-          <div class="rm-step">
-            <div class="rm-bubble next">🏆</div>
-            <div class="rm-label">Nuevo Empleo</div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<div class="section-divider"></div>
-
 <!-- ═══ EMPLEABILIDAD ═══ -->
 
 <section class="jobs-section section" id="empleos">
@@ -1115,9 +798,7 @@
         <select class="filter-select">
           <option>Todas las fuentes</option>
           <option>LinkedIn Jobs</option>
-          <option>Indeed</option>
           <option>Computrabajo</option>
-          <option>Glassdoor</option>
           <option>Bumeran</option>
         </select>
 
@@ -1408,56 +1089,8 @@
       </a>
 
       <p>
-        OportunIA utiliza inteligencia artificial para conectar personas con cursos, becas y oportunidades laborales que potencien su desarrollo profesional.
+        OportunIA centraliza cursos, becas y oportunidades laborales, y cuenta con un asistente virtual que te recomienda formaciones y becas según tu perfil y tus objetivos.
       </p>
-
-      <div class="socials">
-        <div class="social-icon">📷</div>
-        <div class="social-icon">💼</div>
-        <div class="social-icon">▶️</div>
-        <div class="social-icon">🌐</div>
-      </div>
-
-    </div>
-
-    <div class="footer-col">
-
-      <h4>Plataforma</h4>
-
-      <ul>
-        <li><a href="#hub">Cursos</a></li>
-        <li><a href="#becas">Becas</a></li>
-        <li><a href="#empleos">Empleos</a></li>
-        <li><a href="#perfil">Perfil Inteligente</a></li>
-        <li><a href="#ia">Asistente IA</a></li>
-      </ul>
-
-    </div>
-
-    <div class="footer-col">
-
-      <h4>Recursos</h4>
-
-      <ul>
-        <li><a href="#">Guías de estudio</a></li>
-        <li><a href="#">Orientación profesional</a></li>
-        <li><a href="#">Centro de ayuda</a></li>
-        <li><a href="#">Preguntas frecuentes</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-
-    </div>
-
-    <div class="footer-col">
-
-      <h4>Proyecto</h4>
-
-      <ul>
-        <li><a href="#">Nuestra misión</a></li>
-        <li><a href="#">Impacto social</a></li>
-        <li><a href="#">Privacidad</a></li>
-        <li><a href="#">Términos de uso</a></li>
-      </ul>
 
     </div>
 
@@ -1470,9 +1103,11 @@
       </p>
 
       <div class="email-wrap">
-        <input type="email" placeholder="tu@email.com">
-        <button>→</button>
+        <input type="email" id="footerEmail" placeholder="tu@email.com" required>
+        <button id="footerEmailBtn">→</button>
       </div>
+
+      <span class="error-msg oculto" id="errorFooterEmail">Ingresá un email válido (ej: nombre@dominio.com)</span>
 
     </div>
 
@@ -1484,60 +1119,9 @@
       © 2026 OportunIA. Todos los derechos reservados.
     </p>
 
-    <div class="footer-bottom-links">
-      <a href="#">Privacidad</a>
-      <a href="#">Términos</a>
-      <a href="#">Cookies</a>
-      <a href="#">Accesibilidad</a>
-    </div>
-
   </div>
 
 </footer>
-
-<!-- MODAL ANALISIS IA -->
-
-<div class="analysis-modal" id="analysisModal">
-
-  <div class="analysis-box">
-
-    <div class="analysis-icon">
-      🤖
-    </div>
-
-    <h3>
-      Analizando tu perfil...
-    </h3>
-
-    <div class="analysis-list">
-
-      <div class="analysis-item" id="analisis1">
-        Detectando habilidades...
-      </div>
-
-      <div class="analysis-item" id="analisis2">
-        Analizando experiencia...
-      </div>
-
-      <div class="analysis-item" id="analisis3">
-        Identificando fortalezas...
-      </div>
-
-      <div class="analysis-item" id="analisis4">
-        Generando recomendaciones...
-      </div>
-
-    </div>
-
-    <div class="progress-bar">
-
-      <div class="progress-fill" id="progressFill"></div>
-
-    </div>
-
-  </div>
-
-</div>
 
 <!-- Modal Login -->
 <div class="modal-login oculto" id="modalLogin">
@@ -1554,14 +1138,6 @@
         <div id="vistaSocial">
 
             <div class="social-login" id="socialLogin">
-
-                <button class="btn-social btn-google" id="btnGoogle">
-                    <span class="social-icon">🔵</span> Continuar con Google
-                </button>
-
-                <button class="btn-social btn-linkedin" id="btnLinkedIn">
-                    <span class="social-icon">💼</span> Continuar con LinkedIn
-                </button>
 
                 <button class="btn-social btn-email" id="btnEmailContinue">
                     <span class="social-icon">✉️</span> Continuar con email
@@ -1759,10 +1335,6 @@
     </button>
 
 </div>
-
-<!-- Auth0 SPA SDK -->
-<script src="https://cdn.auth0.com/js/auth0-spa-js/2.18/auth0-spa-js.production.js"></script>
-
 
 <script src="main.js"></script>
 
